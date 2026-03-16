@@ -4,8 +4,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const images = [
-  { src: "/gri.png", alt: "Griselda Caffarel" },
-  { src: "/logo.jpeg", alt: "Griselda Sommelier Logo" },
+  { src: "/cris.jpg", alt: "Cristian Barbosa Sommelier" },
+  { src: "/cris2.png", alt: "Cristian Barbosa Sommelier" },
 ];
 
 const INTERVAL_MS = 4000;
