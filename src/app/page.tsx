@@ -1,17 +1,17 @@
 import RotatingImage from "./components/RotatingImage";
 
 const PROFILE = {
-  name: "Griselda Caffarel",
+  name: "Cristian Barbosa",
   title: "Sommelier Profesional",
   bio: [
-    "Apasionada por el mundo del vino y la gastronomía.",
-    "Experiencia en catas, maridajes y asesoramiento personalizado para eventos y restaurantes.",
-    "Descubrí el vino perfecto para cada momento.",
+    "Apasionad0 por el mundo del vino y la gastronomía.",
+    "Gerente Comercial de Bodega Antucura.",
+    "Experiencia en catas, maridajes y asesoramiento personalizado para eventos y privados.",
   ],
-  instagram: "https://www.instagram.com/gricaff.sommelier/",
-  instagramHandle: "@gricaff.sommelier",
-  email: "Gcaffarel@gmail.com",
-  whatsapp: "+5491151553772",
+  instagram: "https://www.instagram.com/cristian.barbosa22/",
+  instagramHandle: "@cristian.barbosa22",
+  email: "cbarbosa@gmail.com",
+  whatsapp: "+5491139378556",
   whatsappMessage: "Hola! Me interesa saber más sobre tus servicios de sommelier.",
 };
 
@@ -112,25 +112,6 @@ export default function Home() {
             </svg>
           </a>
 
-          {/* Instagram - Espacio Taninos */}
-          <a
-            href="https://www.instagram.com/taninos_espacio/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-5 w-full px-6 py-5 rounded-2xl border border-gold/15 bg-white/[0.04] backdrop-blur-sm transition-all duration-300 hover:border-gold/40 hover:bg-white/[0.08] hover:shadow-[0_4px_24px_rgba(114,47,55,0.25)] hover:scale-[1.02]"
-            style={{ marginBottom: '10px' }}
-          >
-            <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gold/10 text-gold/80 group-hover:bg-gold/20 group-hover:text-gold transition-all">
-              <InstagramIcon />
-            </div>
-            <div className="flex-1">
-              <p className="text-cream text-sm font-sans font-semibold tracking-wide">Espacio Taninos</p>
-              <p className="text-cream/50 text-xs font-sans mt-0.5">@taninos_espacio</p>
-            </div>
-            <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-cream/15 group-hover:text-gold/60 group-hover:translate-x-1 transition-all duration-300" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </a>
 
           {/* Email */}
           <a
